@@ -11,7 +11,7 @@ A set of training scripts written in python for use in Kohya's [SD-Scripts](http
 - [Installation](#installation)
   - [Windows](#windows)
   - [Linux](#linux)
-  - [OSX](#M2chips)
+  - [OSX](#OSX)
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Changelog](#changelog)
@@ -52,7 +52,7 @@ pip install ../LyCORIS/.
 accelerate config
 ```
 
-### OS X
+### OSX
 
 ```
 conda create --name loratraining python=3.10.6
@@ -68,7 +68,7 @@ pip install -U xformers
 pip install -r ../requirements_ui.txt
 ```
 while -> pip install --upgrade -r requirements.txt
-tensorflow 10.4 can not be installed with the latest pip
+tensorflow 10.4 can not be installed with the latest pip  
 Since the tensorflow is only required by the WD14, I can skip that package while installing.
 
 
@@ -96,7 +96,7 @@ The UI looks like this:
 ![Main UI Image](https://raw.githubusercontent.com/derrian-distro/LoRA_Easy_Training_Scripts/main/images_gifs/main_ui.png)
 
 To use on M2 chip
-turn off the Xformers and change the training precision to float on general args
+turn off the Xformers and change the training precision to float on general args  
 change the saving precision to float on saving args
 
 and has a bunch of features to it to make using it as easy as I could. So lets start with the basics. The UI is divided into two parts, the "args list" and the "subset list", this replaces the old naming scheme of \<number\>\_\<name\> to try and reduce confusion. The subset list allows you to add and remove subsets to have however many you want!
