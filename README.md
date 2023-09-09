@@ -1,4 +1,4 @@
-![image](https://github.com/yun-lyu/LoRA_Easy_Training_Scripts/assets/44555080/60b1c048-dcb4-4e70-a0f0-1547c0ddf564)# LoRA_Easy_Training_Scripts
+# LoRA_Easy_Training_Scripts
 
 A set of training scripts written in python for use in Kohya's [SD-Scripts](https://github.com/kohya-ss/sd-scripts). It has a UI written in pyside6 to help streamline the process of training models.
 
