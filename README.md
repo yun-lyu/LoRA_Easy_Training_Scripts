@@ -85,10 +85,18 @@ accelerate config will ask you a bunch of questions, answer them like so,
 
 ## Usage
 
+org the files and dirs like
+https://ivonblog.com/posts/stable-diffusion-webui-manuals/images/lora-1.webp![image](https://github.com/yun-lyu/LoRA_Easy_Training_Scripts/assets/44555080/66319fbe-fcc9-4e51-9863-8e83e4f7ba00)
+
+
 You can launch the UI using the `run.bat` file if you are on windows, or `run.sh` file if you are on linux.
 
 The UI looks like this:
 ![Main UI Image](https://raw.githubusercontent.com/derrian-distro/LoRA_Easy_Training_Scripts/main/images_gifs/main_ui.png)
+
+To use on M2 chip
+turn off the Xformers and change the training precision to float on general args
+change the saving precision to float on saving args
 
 and has a bunch of features to it to make using it as easy as I could. So lets start with the basics. The UI is divided into two parts, the "args list" and the "subset list", this replaces the old naming scheme of \<number\>\_\<name\> to try and reduce confusion. The subset list allows you to add and remove subsets to have however many you want!
 ![Subset manipulation gif](https://raw.githubusercontent.com/derrian-distro/LoRA_Easy_Training_Scripts/main/images_gifs/subset_manipulation.gif)
