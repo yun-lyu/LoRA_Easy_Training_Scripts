@@ -51,16 +51,36 @@ pip install ../LyCORIS/.
 accelerate config
 ```
 
+### OS X
+
+```
+conda create --name loratraining python=3.10.6
+conda activate loratraining
+git clone https://github.com/derrian-distro/LoRA_Easy_Training_Scripts.git
+cd LoRA_Easy_Training_Scripts
+git submodule init
+git submodule update
+cd sd_scripts
+pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu116
+pip install --upgrade -r requirements.txt
+pip install -U xformers
+pip install -r ../requirements_ui.txt
+```
+while -> pip install --upgrade -r requirements.txt
+tensorflow 10.4 can not be installed with the latest pip
+Since the tensorflow is only required by the WD14, I can skip that package while installing.
+
+
 accelerate config will ask you a bunch of questions, answer them like so,
 
 ```
 - This machine
-- No distributed training
+- MIPS
 - NO
 - NO
 - NO
 - all
-- fp16
+- No
 ```
 
 ## Usage
