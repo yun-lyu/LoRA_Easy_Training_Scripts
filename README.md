@@ -1,4 +1,4 @@
-# LoRA_Easy_Training_Scripts
+![image](https://github.com/yun-lyu/LoRA_Easy_Training_Scripts/assets/44555080/60b1c048-dcb4-4e70-a0f0-1547c0ddf564)# LoRA_Easy_Training_Scripts
 
 A set of training scripts written in python for use in Kohya's [SD-Scripts](https://github.com/kohya-ss/sd-scripts). It has a UI written in pyside6 to help streamline the process of training models.
 
@@ -11,6 +11,7 @@ A set of training scripts written in python for use in Kohya's [SD-Scripts](http
 - [Installation](#installation)
   - [Windows](#windows)
   - [Linux](#linux)
+  - [OSX](#M2chips)
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Changelog](#changelog)
@@ -86,7 +87,7 @@ accelerate config will ask you a bunch of questions, answer them like so,
 ## Usage
 
 org the files and dirs like
-https://ivonblog.com/posts/stable-diffusion-webui-manuals/images/lora-1.webp![image](https://github.com/yun-lyu/LoRA_Easy_Training_Scripts/assets/44555080/66319fbe-fcc9-4e51-9863-8e83e4f7ba00)
+![image](https://github.com/yun-lyu/LoRA_Easy_Training_Scripts/assets/44555080/66319fbe-fcc9-4e51-9863-8e83e4f7ba00)
 
 
 You can launch the UI using the `run.bat` file if you are on windows, or `run.sh` file if you are on linux.
